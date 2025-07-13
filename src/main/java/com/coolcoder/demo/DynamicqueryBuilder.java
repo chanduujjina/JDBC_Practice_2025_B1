@@ -22,6 +22,7 @@ public class DynamicqueryBuilder {
 			count++;
 		}
 		
+		
 		if (inputCriteria.getName() != null ) {
 			if (count>0) {
 				buffer.append(AND);
